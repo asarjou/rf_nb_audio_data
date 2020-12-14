@@ -10,7 +10,7 @@ Labels = M(:,1)
 Labels = categorical(Labels)
 
 oldcats = {'ES','GE', 'UK', 'IT', 'FR'};
-New_Labels = mergecats(Labels,oldcats) %Merge the Columns in line with the research paper [Insert Reference]
+New_Labels = mergecats(Labels,oldcats) %Merge the Columns in line with the research paper by Ma and Fokoue (2014)
 
 New_Labels = grp2idx(New_Labels) %Convert Labels to numeric values
 
@@ -33,7 +33,7 @@ trainingData = Features(idx(1:round(m*0.7)),:) ;
 trainingLabels = New_Labels(idx(1:round(m*0.7)),:) ; 
 
 testingData = Features(idx(round(m*0.7)+1:end),:) ;
-testingLabels = New_Labels(idx(round(m*0.7)+1:end),:) ;%Seperate into training and testing datasets, 80% training and 20% testing
+testingLabels = New_Labels(idx(round(m*0.7)+1:end),:) ;%Seperate into training and testing datasets, 70% training and 30% testing
 
 writematrix(trainingData,'trainingData.csv') 
 writematrix(trainingLabels,'trainingLabels.csv') 
