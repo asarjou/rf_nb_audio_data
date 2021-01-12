@@ -1,5 +1,5 @@
+#Comparing Naive Bayes and Random Forests Algorithms for Speaker Accent Prediction Using MFCCs
 Author: Arman Sarjou
-Student Number: 200042727
 Date Created: 05/12/20
 
 This directory contains a number of MatLab files required to perform a comparison of Random Forests and Naive Bayes models for Speaker Accent Prediction using MFCC Data
@@ -7,9 +7,6 @@ This directory contains a number of MatLab files required to perform a compariso
 In this directory you should find the following files: 
 1. Comparing Naive Bayes and Random Forests using MFCCs for speaker accent prediction.pdf
 	- This pdf contains an A1 poster in which the study is outlined
-
-2. Comparing Naive Bayes and Random Forests using MFCCs for speaker accent prediction supplementary materials.pdf
-	- This pdf contains a 4 Page supplementary materials document which consists of a Glossary, Description of Intermediate Results and a Description of the main implementation choices in the project.
 
 3. dataset_exploration.m
 	- This is a file in which exploratory data analysis of the original dataset is undertaken. This outputs a number of figures to describe the dataset
@@ -50,4 +47,4 @@ In this directory you should find the following files:
 	The original dataset 
 
 
-These models files have all been produced in Matlab_R2020b using the Statistics and Machine Learning Toolbox, Bioinformatics Toolbox and Optimisation Toolbox. The final model testing should run with the Statistics and Machine Learning Toolbox. Final model testing has been done on City, University of London Lab Computers which use Matlab_R2020a and results that are the exact same as the poster can be achieved.  
+These models files have all been produced in Matlab_R2020b using the Statistics and Machine Learning Toolbox, Bioinformatics Toolbox and Optimisation Toolbox. The final model testing should run with the Statistics and Machine Learning Toolbox. 
