@@ -1,4 +1,4 @@
-#Comparing Naive Bayes and Random Forests Algorithms for Speaker Accent Prediction Using MFCCs
+# Comparing Naive Bayes and Random Forests Algorithms for Speaker Accent Prediction Using MFCCs
 Author: Arman Sarjou
 Date Created: 05/12/20
 
